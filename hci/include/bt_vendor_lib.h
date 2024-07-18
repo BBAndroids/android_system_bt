@@ -358,6 +358,9 @@ typedef struct {
 
   /* notifies status of a2dp offload cmd's */
   cfg_a2dp_cb a2dp_offload_cb;
+
+  /* notifies caller result of firmware loading */
+  cfg_result_cb fwldd_cb;
 } bt_vendor_callbacks_t;
 
 /** A2DP offload request */
